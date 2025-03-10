@@ -1,4 +1,4 @@
-# EMultiplicative Logit Adjustment Approximates Neural-Collapse-Aware Decision Boundary Adjustment (ICLR2025)
+# Multiplicative Logit Adjustment Approximates Neural-Collapse-Aware Decision Boundary Adjustment (ICLR2025)
 
 [[ArXiV]](https://arxiv.org/abs/2409.17582)
 [[OpenReview]](https://openreview.net/forum?id=II81zQUS1x)
@@ -9,7 +9,7 @@ This repository comprises code for LTR. Primarily, one can conduct training (or 
 - `first.py`: Code for the training.
 - `second.py`: Code for the logit adjustment or 1vs1 adjuster.
 
-This repository is based on the [paper](https://arxiv.org/abs/2203.14197) and [repository](https://github.com/ShadeAlsha/LTR-weight-balancing). Please refer to them as well.
+This repository is based on the [paper](https://arxiv.org/abs/2203.14197) and [repository](https://github.com/ShadeAlsha/LTR-weight-balancing) of Alshammari et al. Please refer to them as well.
 
 ## How to Execute
 1. Setup environment. Refer to [Requirement](#Requirement).
@@ -39,12 +39,13 @@ pip install -U scikit-image pandas seaborn ipykernel scikit-learn tensorboard
 
 ## Citation
 If you find our model or methodology beneficial, kindly cite our work:
-
-    @inproceedings{
-      hasegawa2024exploring,
-      title={Exploring Weight Balancing on Long-Tailed Recognition Problem},
-      author={Naoya Hasegawa and Issei Sato},
-      booktitle={The Twelfth International Conference on Learning Representations},
-      year={2024},
-      url={https://openreview.net/forum?id=JsnR0YO4Fq}
-    }
+```
+@inproceedings{
+hasegawa2025multiplicative,
+title={Multiplicative Logit Adjustment Approximates Neural-Collapse-Aware Decision Boundary Adjustment},
+author={Naoya Hasegawa and Issei Sato},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=II81zQUS1x}
+} 
+```
