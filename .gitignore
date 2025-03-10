@@ -1,0 +1,13 @@
+*.out
+*.err
+*.png
+*.jpg
+*.pyc
+exp/*
+datasets/*
+*/__pycache__/*
+tmp/*
+job/*
+logs/*
+torchhub/*
+sh/*
